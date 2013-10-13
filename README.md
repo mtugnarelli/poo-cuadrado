@@ -6,7 +6,7 @@ UNTreF - Algoritmos y Programación 1
 
 Implementar la clase `Cuadrado` que represente la figura geométrica de cuatro lado iguales y cuatro ángulos rectos.
 
-Características:
+#### Características:
 
 * Longitud del lado
 * Perímetro
