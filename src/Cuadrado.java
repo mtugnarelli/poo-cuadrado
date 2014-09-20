@@ -62,19 +62,19 @@ class Cuadrado {
 	/*
 	 * post: devuelve el área encerrado por el Cuadrado.
 	 */
-	public double medirArea() {
+	public double medirSuperficie() {
 		
 		return lado * lado;
 	}
 	
 	/*
-	 * pre : nuevoArea es mayor a 0.
+	 * pre : nuevaSuperficie es mayor a 0.
 	 * post: cambia las dimensiones del Cuadrado para que el área
-	 *       encierra sea nuevoArea.
+	 *       que encierra sea nuevoSuperficie.
 	 */
-	public void cambiarArea(double nuevoArea) {
+	public void cambiarSuperficie(double nuevaSuperficie) {
 		
-		cambiarLado(Math.sqrt(nuevoArea));
+		cambiarLado(Math.sqrt(nuevaSuperficie));
 	}
 	
 	/*
